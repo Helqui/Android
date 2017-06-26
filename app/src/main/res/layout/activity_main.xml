@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.prueba01.MainActivity"
+    android:background="#aa62be56">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Helqui Arana Cruzate"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ETU"
+            android:textColor="@color/colorIarq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:drawableLeft="@drawable/ic_face"/>
+
+        <EditText
+            android:id="@+id/ETC"
+            android:textColor="@color/colorIarq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Contraseña"
+            android:drawableLeft="@drawable/ic_lock"/>
+
+        <Button
+            android:id="@+id/BI"
+            android:drawableLeft="@drawable/ic_action_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Ingresar"
+            android:theme="@style/MiBoton"
+            android:textColorHint="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>
